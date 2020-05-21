@@ -4,82 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".shadowact2">
+
+    <WebView
+        android:id="@+id/wewewew"
+        android:layout_width="300dp"
+        android:layout_height="99dp"
+        android:animationCache="true"
+        android:background="#AA7AFF"
+        android:fadingEdge="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="137dp"
-        android:layout_height="197dp"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
         android:background="@drawable/round_button"
-        android:bufferType="normal"
         android:clickable="true"
-        android:hapticFeedbackEnabled="true"
-        android:onClick="stylelame1"
+        android:onClick="farmnews"
+        android:scrollbarStyle="outsideInset"
+        android:shadowColor="#A1A1A1"
         android:text="@string/News"
-        android:textColor="#878787"
-        android:textColorHighlight="#FF7777"
-        android:textColorHint="#888888"
+        android:textColor="#AF8FE8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="308dp"
+        android:layout_height="87dp"
+        android:background="@drawable/round_button1"
+        android:scrollbarStyle="insideInset"
+        android:text="@string/seasonheading"
+        android:textColor="#FF7A7A"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31"
-        tools:text="@string/News" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="313dp"
-        android:layout_height="59dp"
-        android:text="@string/features"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
-        tools:text="@string/features" />
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="139dp"
-        android:layout_height="199dp"
-        android:background="@drawable/round_button1"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="135dp"
-        android:layout_height="194dp"
-        android:background="@drawable/round_button3"
-        android:text="Button"
+        android:layout_width="312dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button2"
+        android:text="@string/Pesticides"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.745" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="139dp"
-        android:layout_height="193dp"
-        android:background="@drawable/round_button2"
-        android:text="Button"
+        android:layout_width="305dp"
+        android:layout_height="75dp"
+        android:background="@drawable/round_button3"
+        android:text="@string/Fertilisers"
+        android:textColor="#4DB551"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintVertical_bias="0.907" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="244dp"
+        android:layout_height="96dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/features" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

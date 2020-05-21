@@ -10,7 +10,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 public class shadowact2 extends AppCompatActivity {
-private WebView webView;
+    private WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +22,6 @@ private WebView webView;
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-
-
     }
 
 
@@ -31,4 +30,19 @@ private WebView webView;
         startActivity(intent);
     }
 
-}
+    public void infopesticides(View view) {
+        Intent intent = new Intent(this, shadowact5.class);
+        startActivity(intent);
+
+
+    }
+
+    public void infofertilisers(View view) {
+        Intent intent = new Intent(this, shadowact6.class);
+        startActivity(intent);
+
+    }
+    public void seedinfo(View view) {
+        Intent intent = new Intent(this, shadowact7.class);
+        startActivity(intent);
+}}

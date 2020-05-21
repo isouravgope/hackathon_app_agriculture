@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AgriFarm</string>
+    <string name="Agritech">Welcome to Agri Farm</string>
+    <string name="Summer">Summer</string>
+    <string name="Winter">Winter</string>
+    <string name="Monsoon">Monsoon</string>
+    <string name="Spring">Spring</string>
+    <string name="Autumn">Autumn</string>
+<string name="seasonheading">Seasonal Cropping</string>
+    <string name="Pesticides">Pesticides Info</string>
+    <string name="Fertilisers">Fertilisers Info</string>
+    <string name="News">News on Farming</string>
+   <string name="shops">Nearest Pesticide Shops</string>
+<string name="features">Agrifarm Features</string>
+</resources>

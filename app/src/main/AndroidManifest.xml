@@ -12,14 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".shadowact8"></activity>
+        <activity android:name=".shadowact8" />
         <activity android:name=".shadowact7" />
         <activity android:name=".shadowact6" />
         <activity android:name=".shadowact5" />
         <activity android:name=".shadowact4" />
         <activity android:name=".shadowact3" />
         <activity android:name=".shadowact2" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
